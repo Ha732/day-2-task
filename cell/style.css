@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(222, 38%, 95%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 50%;
+  height: 100%;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.colorbox {
+  display: flex;
+  justify-content: space-between;
+  width: 284px;
+  padding-top: 20px;
+}
+
+.colorbox h4 {
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 21px;
+}
+/* .box2{
+  width: 36px;
+  height: 36px;
+  background-color: lightblue;
+  border: 1px solid #000;
+ }
+ .box3{
+  width: 36px;
+  height: 36px;
+  background-color: lightblue;
+  border: 1px solid #000;
+ } */
+.sizebox {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+
+  gap: 20px;
+}
+.boxe {
+  width: 50px;
+  height: 30px;
+  background-color: lightblue;
+  border: 1px solid #000;
+}
+
+input[type="checkbox"] {
+  width: 36px;
+  height: 36px;
+}
+
+.boxe h1 {
+  font-size: 14px;
+  text-align: center;
+}
+.boxe {
+  width: 90px;
+  height: 60px;
+  border-radius: 7px;
+}
